@@ -13,6 +13,7 @@
 		A9497E61296DFFA200878734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9497E60296DFFA200878734 /* Assets.xcassets */; };
 		A9497E64296DFFA200878734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9497E62296DFFA200878734 /* LaunchScreen.storyboard */; };
 		A9497E6D296E002B00878734 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E6C296E002B00878734 /* GameViewController.swift */; };
+		A9497E6F296E020B00878734 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E6E296E020B00878734 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A9497E63296DFFA200878734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9497E65296DFFA200878734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9497E6C296E002B00878734 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9497E6E296E020B00878734 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A9497E60296DFFA200878734 /* Assets.xcassets */,
 				A9497E62296DFFA200878734 /* LaunchScreen.storyboard */,
 				A9497E65296DFFA200878734 /* Info.plist */,
+				A9497E6E296E020B00878734 /* UIColor.swift */,
 			);
 			path = DragCircleGame;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9497E5C296DFFA100878734 /* StartViewController.swift in Sources */,
+				A9497E6F296E020B00878734 /* UIColor.swift in Sources */,
 				A9497E6D296E002B00878734 /* GameViewController.swift in Sources */,
 				A9497E58296DFFA100878734 /* AppDelegate.swift in Sources */,
 			);

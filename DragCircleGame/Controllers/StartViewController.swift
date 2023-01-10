@@ -9,11 +9,10 @@ import UIKit
 
 class StartViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func startButtonPressed(_ sender: UIButton) {
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "GameViewController") as! GameViewController
+        self.navigationController?.pushViewController(controller, animated: true)
     }
-
-
+    
 }
 

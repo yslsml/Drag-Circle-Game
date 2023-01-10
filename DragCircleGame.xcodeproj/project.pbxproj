@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A9497E58296DFFA100878734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E57296DFFA100878734 /* AppDelegate.swift */; };
-		A9497E5C296DFFA100878734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E5B296DFFA100878734 /* ViewController.swift */; };
+		A9497E5C296DFFA100878734 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E5B296DFFA100878734 /* StartViewController.swift */; };
 		A9497E5F296DFFA100878734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9497E5D296DFFA100878734 /* Main.storyboard */; };
 		A9497E61296DFFA200878734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9497E60296DFFA200878734 /* Assets.xcassets */; };
 		A9497E64296DFFA200878734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9497E62296DFFA200878734 /* LaunchScreen.storyboard */; };
+		A9497E6D296E002B00878734 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E6C296E002B00878734 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9497E54296DFFA100878734 /* DragCircleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragCircleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9497E57296DFFA100878734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9497E5B296DFFA100878734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9497E5B296DFFA100878734 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A9497E5E296DFFA100878734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9497E60296DFFA200878734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9497E63296DFFA200878734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9497E65296DFFA200878734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9497E6C296E002B00878734 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A9497E56296DFFA100878734 /* DragCircleGame */ = {
 			isa = PBXGroup;
 			children = (
+				A9497E6B296E000C00878734 /* Controllers */,
 				A9497E57296DFFA100878734 /* AppDelegate.swift */,
-				A9497E5B296DFFA100878734 /* ViewController.swift */,
 				A9497E5D296DFFA100878734 /* Main.storyboard */,
 				A9497E60296DFFA200878734 /* Assets.xcassets */,
 				A9497E62296DFFA200878734 /* LaunchScreen.storyboard */,
 				A9497E65296DFFA200878734 /* Info.plist */,
 			);
 			path = DragCircleGame;
+			sourceTree = "<group>";
+		};
+		A9497E6B296E000C00878734 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9497E5B296DFFA100878734 /* StartViewController.swift */,
+				A9497E6C296E002B00878734 /* GameViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9497E5C296DFFA100878734 /* ViewController.swift in Sources */,
+				A9497E5C296DFFA100878734 /* StartViewController.swift in Sources */,
+				A9497E6D296E002B00878734 /* GameViewController.swift in Sources */,
 				A9497E58296DFFA100878734 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
